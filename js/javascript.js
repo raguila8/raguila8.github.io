@@ -31,5 +31,4 @@ function centerHireMeContent() {
 	contentHeight = $content4.height();
 	containerHeight = $('.bg-4').height();
 	$content4.css("margin-top", (containerHeight/2 - contentHeight/2) + "px");
-
 }
