@@ -11,3 +11,11 @@ function centerContent() {
 		$content.css("margin-top", (containerHeight/2 - contentHeight/2) + "px");
 	}
 }
+
+function projectHover() {
+	$(".thumbnail").hover(function() {
+		$(".image-caption", this).slideToggle("slow");
+	}, function() {
+		$(".image-caption", this).slideToggle("slow");
+	});
+}
