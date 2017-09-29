@@ -157,6 +157,10 @@ a {
   -o-background-size: cover;
   background-size: cover; }
 
+hr {
+	border: 1px solid #333;
+}
+
 
 @media (min-width: 992px) {
   .content-section {
