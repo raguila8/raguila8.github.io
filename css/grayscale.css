@@ -148,6 +148,10 @@ a {
 	margin-bottom: 45px;
 }
 
+.rounded-circle {
+	opacity:0.9;
+	border: 2px solid #fff;
+}
 .work-section {
   color: white;
   background: url("../img/dark-grey-background.jpg") no-repeat center center scroll;
