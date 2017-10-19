@@ -45,6 +45,12 @@ a {
   a:focus, a:hover {
     text-decoration: none;
     color: #1d9b6c; }
+li {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
 
 .project-description {
 	font-size: 14px;
@@ -166,7 +172,7 @@ a {
   background-size: cover; }
 
 hr {
-	border: 1px solid #333;
+	border: 1px dashed #42DCA3;
 }
 
 
@@ -183,6 +189,7 @@ hr {
   transition: all 0.3s ease-in-out;
   text-transform: uppercase;
   border-radius: 0; }
+
 
 .btn-default {
   color: #42DCA3;
