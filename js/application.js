@@ -19,7 +19,6 @@ $(document).ready(function() {
   });
 
   $(document).on('hidden.bs.collapse', '.navbar-collapse', function() {
-    console.log('hereeee');
     var $nav = $('.navbar');
     $nav.toggleClass('white', $(this).scrollTop() > $nav.height());
   });
